@@ -81,3 +81,14 @@
 .btn-especial {
     color: #008192!important;
 }
+
+.lista-historial {
+    display: none;
+    list-style-type: none;
+    padding: 3px 5px;
+    background-color: #585858;
+    border-radius: 5px;
+}
+.lista-historial li {
+    margin-bottom: 3px;
+}
