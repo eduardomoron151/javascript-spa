@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    color: white;
+    background-color: black;
+    padding: 5px;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.header {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-activo {
+    text-decoration: underline !important;
+    color : aquamarine !important;
+}
+
+/*
+* Estilos de calculadora
+*/
+.calculadora {
+    min-width: 200px;
+    margin-top: 25px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(43, 42, 42);
+}
+
+.resultado {
+    justify-self: end;
+    align-self: center;
+    margin: 15px;
+}
+
+.resultado p {
+    font-size: 20px;
+}
+
+.seccion-botones {
+    min-height: 250px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.seccion-botones button {
+    border: none;
+    color: white;
+    background-color: rgb(43, 42, 42);
+}
+
+.seccion-botones button:hover {
+    background-color: #585858;
+    border-radius: 33%;
+    cursor: pointer;
+}
+
+.btn-especial {
+    color: #008192!important;
+}
