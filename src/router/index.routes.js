@@ -12,7 +12,7 @@ const router = async(route) => {
         }
 
         case "#/cambio": {
-            return content.innerHTML = '<h1>Calculadora</h1>'
+            return content.appendChild(paginas.tipoCambio())
         }
         default:
             break;

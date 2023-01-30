@@ -50,6 +50,7 @@
 }
 
 .resultado {
+    min-height: 25px;
     justify-self: end;
     align-self: center;
     margin: 15px;
@@ -91,4 +92,28 @@
 }
 .lista-historial li {
     margin-bottom: 3px;
+}
+
+.operacion {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+}
+
+.operacion-1 select,
+.operacion-2 select {
+    width: 100px;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    background-color:  #818181;
+}
+
+.operacion-1 input,
+.operacion-2 input {
+    width: 150px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
 }
